@@ -29,13 +29,13 @@ registerBlockType('create-block/myblock', {
             default: '',
         },
         university_organization: {
-			type: 'string',
-			default: ''
-		},
+            type: 'string',
+            default: ''
+        },
         size: {
-			type: 'string',
-			default: 'medium'
-		},
+            type: 'string',
+            default: 'medium'
+        },
     },
     edit: Edit,
     save: function(){
