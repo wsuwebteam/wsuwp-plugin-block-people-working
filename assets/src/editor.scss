@@ -1,0 +1,27 @@
+.profiles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: .75em;
+}
+
+.profile{
+
+}
+
+.profile .profile__img-container{
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+}
+
+.profile .profile__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile .profile__name{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
