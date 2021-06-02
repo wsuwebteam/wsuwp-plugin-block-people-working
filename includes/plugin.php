@@ -63,7 +63,7 @@ class Plugin {
     }
 
     function render_block ( $attributes ) {
-        $request = new \WP_REST_Request( 'GET', '/peopleapi/v1/people' );
+        $request = \WP_REST_Request::from_url( 'http://peopleapi.local/wp-json/peopleapi/v1/people' );
         $request->set_query_params($attributes);
         $response = rest_do_request( $request );
         $server = rest_get_server();

@@ -13,7 +13,7 @@ registerBlockType('create-block/myblock', {
             default: '10',
         },
         page: {
-            type: 'integer',
+            type: 'string',
             default: '1',
         },
         nid: {
