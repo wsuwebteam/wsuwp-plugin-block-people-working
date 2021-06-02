@@ -3,7 +3,7 @@ const { registerBlockType } = wp.blocks;
 import './style.scss';
 import Edit from './edit';
 
-registerBlockType('create-block/myblock', {
+registerBlockType('wsuwp/people', {
     title: 'People',
     icon: 'groups',
     category: 'common',
